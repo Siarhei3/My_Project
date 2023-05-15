@@ -1,0 +1,73 @@
+body {
+    background: url('../img/dom_2.jpg') no-repeat;
+}
+
+aside {
+    float: left;
+    background: #41B3A3;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #919191;
+    border-right: 5px solid #4e9ca9;
+}
+
+aside img{
+    width: 50px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    color: #FBEEC1;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+    color: #EDF5E1
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #EDF5E1;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    transform: scale(1.05);
+}
+
+aside a {text-decoration: none;}
+
+main .feat{
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .feat h1 {font-size: 50px;}
+main .feat p {max-width:400px; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left:32%;
+    width: 500px;
+    margin-top: 5px;
+}
